@@ -19,6 +19,11 @@ void cumpSetBlockSize(size_t s)
 	cump.SetBockSize(s);
 }
 
+void cumpDestroy()
+{
+	cump.Destroy();
+}
+
 size_t cumpGetUsedSize()
 {
 	return cump.GetTotalUsed();

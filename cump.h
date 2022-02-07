@@ -9,5 +9,6 @@ cudaError cumpMalloc(void** p, size_t s);
 cudaError cumpFree(void* devPtr);
 
 void cumpSetBlockSize(size_t s);
+void cumpDestroy();
 
 size_t cumpGetUsedSize(); 
