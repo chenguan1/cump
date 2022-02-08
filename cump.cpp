@@ -1,7 +1,7 @@
 #include "cump.h"
 #include "cump_impl.hpp"
 
-static CumpImpl cump;
+static cump_impl::CumpImpl cump;
 
 cudaError cumpMalloc(void** p, size_t s)
 {

@@ -3,6 +3,10 @@
 #include <list>
 #include <mutex>
 
+namespace cump_impl {
+
+
+
 static size_t g_pitch = 0;
 
 /****************************************************************************
@@ -310,4 +314,7 @@ void CumpImpl::Destroy()
 		DestroyCumBlock(pb);
 	}
 	m_listBlock.swap(std::list<CumBlock*>());
+}
+
+
 }

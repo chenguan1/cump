@@ -78,7 +78,7 @@ void test_pool()
 }
 
 
-int main()
+/*int main()
 {
 	auto start = GetTickCount64();
 	test_pool();
@@ -91,4 +91,4 @@ int main()
 
 	cin.ignore();
 	return 0;
-}
+}*/
